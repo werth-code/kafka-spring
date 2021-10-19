@@ -1,6 +1,6 @@
-package com.matthewwerth.kafkaspring.controller;
+package controller;
 
-import com.matthewwerth.kafkaspring.producer.Producer;
+import producer.Producer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
